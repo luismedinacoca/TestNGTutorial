@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="annotation_demo_01">
+        <classes>
+            <class name="TC01">
+                <methods>
+                    <include name="method01"/>
+                    <include name="method02"/>
+                </methods>
+            </class>
+
+            <class name="TC02">
+                <methods>
+                    <include name="method03"/>
+                    <include name="method04"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="annotation_demo_02">
+        <classes>
+            <class name="TC02">
+                <methods>
+                    <include name="method03"/>
+                    <include name="method04"/>
+                </methods>
+            </class>
+
+            <class name="TC03">
+                <methods>
+                    <include name="method05"/>
+                    <include name="method06"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
