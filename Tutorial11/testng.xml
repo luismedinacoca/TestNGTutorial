@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="ListenersPackage.CustomListeners"/>
+    </listeners>
+
+    <test verbose="2" preserve-order="true"
+          name="D:/Programming/[TestNG Tutorial]/Tutorial11/src/main/java/ListenersPackage/ListenerTest02.java">
+        <classes>
+            <class name="ListenersPackage.ListenerTest02"/>
+        </classes>
+    </test>
+</suite>

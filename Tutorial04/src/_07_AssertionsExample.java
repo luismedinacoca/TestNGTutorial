@@ -18,9 +18,10 @@ public class _07_AssertionsExample {
     }
 
     @Test(priority = 1)
-    void logoTest(){
+    void logoTest() throws InterruptedException{
         WebElement logo = driver.findElement(By.xpath("//*[@id=\"divLogo\"]/img"));
         Assert.assertTrue(logo.isDisplayed(), "Logo not displayed on page");
+        Thread.sleep(5000);
     }
 
 
